@@ -1,5 +1,6 @@
+set PATH /usr/bin /bin /usr/sbin /sbin /usr/local/Cellar/fish/1.23.1/bin /usr/X11R6/bin /usr/local/bin /opt/local/bin /opt/ruby-enterprise/bin/ ~/.gem/ruby/1.8/bin ~/local/bin
+
 if status --is-login
-  set PATH /Users/alexrakoczy/local/Cellar/ruby-enterprise-edition/2009.10/bin ~/local/bin $PATH
   set -x DYLD_LIBRARY_PATH /Users/alexrakoczy/local/lib/ $DYLD_LIBRARY_PATH
   launchctl load -w /Users/alexrakoczy/local/Cellar/mysql/5.1.41/com.mysql.mysqld.plist
   set -x RUBY_GC_MALLOC_LIMIT 50000000
