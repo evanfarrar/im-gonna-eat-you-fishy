@@ -9,7 +9,9 @@ function dotime
 	echo "------------"
 	echo " Started at:"\t$start
 	echo "Finished at:"\t$end
-	growlnotify -t "$argv" -m "$total seconds
+  if type growlnotify
+	  growlnotify -t "$argv" -m "$total seconds
+  end
 $start
 $end"
 
